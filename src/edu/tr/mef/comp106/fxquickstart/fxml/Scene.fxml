@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<VBox  alignment="CENTER" fx:id="MainPane" prefHeight="600" prefWidth="600" xmlns:fx="http://javafx.com/fxml" fx:controller="edu.tr.mef.comp106.fxquickstart.MainPaneController">
+    <children>
+        <ImageView fx:id="ivMain">
+            <Image 
+                url="file:src/edu/tr/mef/comp106/fxquickstart/images/logo_tr_color.png"
+                backgroundLoading="true"
+            />
+        </ImageView>
+        <HBox alignment="CENTER" >
+            <padding><Insets top="25" right="25" bottom="25" left="25"/></padding>
+            <Button fx:id="btnSelectImage" text="Select an image."
+            >
+            </Button>
+        </HBox>
+        
+            
+    
+    </children>
+</VBox>
